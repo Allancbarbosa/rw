@@ -14,10 +14,10 @@
 </head>
 
 <body ng-app="rw" class="container">
-<div class="panel panel-default" ng-controller="IndexController4">
-    <div class="panel-heading">Cadastro de Pessoas</div>
-    <div class="panel-body">
-        <form novalidate name="myForm">
+    <div class="panel panel-default" ng-controller="IndexController5">
+        <div class="panel-heading">Cadastro de Pessoas</div>
+        <div class="panel-body">
+         <form novalidate name="myForm">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="form-group"
@@ -35,15 +35,15 @@
                         <div class="help-block"
                                 ng-messages="myForm.tiNome.$error"
                                ng-if="myForm.tiNome.$touched && myForm.tiNome.$invalid">
-                               <div ng-messages-include="app/messages/messages-default.html" </div>
+                               <div ng-messages-include="app/messages/messages-default.html"></div>
                         </div>
                     </div>
-                   </div>
                 </div>
+
 
                 <div class="col-sm-4">
                     <div class="form-group"
-                      ng-class="{'has-error':myForm.tiNascimento.$invalid && myForm.tiNascimento.$touched}">
+                        ng-class="{'has-error':myForm.tiNascimento.$invalid && myForm.tiNascimento.$touched}">
                         <label for="tiNascimento">Nascimento</label>
                         <input type="date"
                                class="form-control"
@@ -53,13 +53,12 @@
                                required>
                         <div class="help-block"
                              ng-messages="myForm.tiNascimento.$error"
-                             ng-if="myForm.tiNascimento.$invalid && myForm.tiNascimento.$touched"</div>
-                    <div ng-messages-include="app/messages/messages-default.html"</div>
+                             ng-if="myForm.tiNascimento.$invalid && myForm.tiNascimento.$touched">
+                            <div ng-messages-include="app/messages/messages-default.html"></div>
+                        </div>
 
                     </div>
-                   </div>
                 </div>
-               </div>
 
                 <div class="col-sm-4">
                     <div class="form-group"
@@ -75,59 +74,46 @@
                         </select>
                         <div class="help-block"
                                 ng-messages="myForm.tiSexo.$error"
-                                ng-if="myForm.tiSexo.$invalid && myForm.tiSexo.$touched"</div>
-                            <div ng-messages-include="app/messages/messages-default.html"</div>
+                                ng-if="myForm.tiSexo.$invalid && myForm.tiSexo.$touched">
+                            <div ng-messages-include="app/messages/messages-default.html"></div>
                         </div>
                     </div>
                 </div>
 
             </div>
-
-
-
         </form>
 
-        <table class="table">
-            <thead>
-            <th>Nome</th>
-            <th>Nascimento</th>
-            <th>Sexo</th>
-            </thead>
+            <div ui-grid="gridOptions"></div>
+        </div>
 
-            <tbody>
-            <tr ng-repeat="pessoa in listaDePessoas">
-                <td ng-bind="::pessoa.nome"></td>
-                <td ng-bind="::pessoa.nascimento | date: 'dd/MM/yyyy'"></td>
-                <td ng-bind="::pessoa.sexo"></td>
-            </tr>
-            </tbody>
+        <div class="panel-footer pull-right">
+            <button class="btn btn-primary" ng-click="salvar()" ><!--ng-disabled="myForm.$invalid">-->
+                Salvar
+                <i class="fa fa-save"></i>
+            </button>
 
-        </table>
+            <button class="btn btn-warning" ng-click="limpar()">
+                Limpar
+                <i class="fa fa-eraser"></i>
+            </button>
+
+            <button class="btn btn-danger" ng-click="excluir()">
+                Excluir
+                <i class="fa fa-trash"></i>
+            </button>
+        </div>
+    </div>
     </div>
 
-    <div class="panel-footer pull-right">
-        <button class="btn btn-primary" ng-click="salvar()" ><!--ng-disabled="myForm.$invalid">-->
-            Salvar
-            <i class="fa fa-save"></i>
-        </button>
-
-        <button class="btn btn-warning" ng-click="limpar()">
-            Limpar
-            <i class="fa fa-eraser"></i>
-        </button>
-
-        <button class="btn btn-danger" ng-click="excluir()">
-            Excluir
-            <i class="fa fa-trash"></i>
-        </button>
-    </div>
-
-</div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="app/app-config.js"></script>
+    <script src="app/controller/index-controller4.js"></script>
+    <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <script src="app/service/alert-sevice.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+    <script src="app/controller/index-controller5.js"></script>
 
 </body>
-<script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/angular-messages/angular-messages.js"></script>
-<script src="app/app-config.js"></script>
-<script src="app/controller/index-controller4.js"></script>
-<script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
-<script src="app/service/alert-sevice.js"></script>
+
+</html>
