@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (function() {
     'user strict';
     angular.module('rw', ['ngMessages', 'toastr', 'ui.grid', 'ui.router','oc.lazyLoad']).config(config);
@@ -61,3 +62,6 @@
 })();
 
 
+=======
+angular.module('rw',['ngMessages','toastr','ui.grid']);
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c

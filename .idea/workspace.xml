@@ -21,6 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="rw-crud.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arquitetura/directives/rw-crud/rw-crud.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,20 +38,39 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="22" />
               <folding />
+=======
+      <file leaf-file-name="index5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2434555">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding>
+                <element signature="n#select#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="pessoa-service.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pessoa/pessoa-service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.23224044">
               <caret line="5" column="31" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="31" />
+=======
+      <file leaf-file-name="index-controller5.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/index-controller5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index8.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index8.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,6 +86,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="39" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="39" />
+=======
+      <file leaf-file-name="app-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="48" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
               <folding />
             </state>
           </provider>
@@ -89,6 +116,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index3.html" />
         <option value="$PROJECT_DIR$/app/messages/messages-default.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index4.html" />
         <option value="$PROJECT_DIR$/app/template/cell-template.html" />
         <option value="$PROJECT_DIR$/app/template/row-template.html" />
@@ -127,6 +155,16 @@
         <option value="$PROJECT_DIR$/index8.html" />
         <option value="$PROJECT_DIR$/arquitetura/directives/rw-crud/rw-crud.js" />
         <option value="$PROJECT_DIR$/app/views/pessoa/pessoa-service.js" />
+=======
+        <option value="$PROJECT_DIR$/app/service/alert-sevice.js" />
+        <option value="$PROJECT_DIR$/.gitguinore" />
+        <option value="$PROJECT_DIR$/.gitiginore" />
+        <option value="$PROJECT_DIR$/app/controller/index-controller4.js" />
+        <option value="$PROJECT_DIR$/index4.html" />
+        <option value="$PROJECT_DIR$/app/app-config.js" />
+        <option value="$PROJECT_DIR$/app/controller/index-controller5.js" />
+        <option value="$PROJECT_DIR$/index5.html" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
       </list>
     </option>
   </component>
@@ -303,6 +341,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helloword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helloword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helloword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helloword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helloword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helloword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -333,6 +417,7 @@
       <recent name="E:\desenvolvimento\workspace\rw\arquitetura\directives\messages" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.index8.html">
     <configuration default="false" name="index5.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/rw/index5.html">
       <method />
@@ -347,6 +432,22 @@
       <method />
     </configuration>
     <configuration default="false" name="index8.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:65428/rw/index8.html">
+=======
+  <component name="RunManager" selected="JavaScript Debug.index5.html">
+    <configuration default="false" name="index4.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Helloword/index4.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="CHAT.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Helloword/CHAT.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index4.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:59485/Helloword/index4.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index-controller5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index-controller5.js" working-dir="$PROJECT_DIR$/app/controller">
+      <method />
+    </configuration>
+    <configuration default="false" name="index5.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:59485/Helloword/index5.html">
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -395,6 +496,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index7.html" />
@@ -408,6 +510,21 @@
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index7.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index4.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CHAT.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index4.html (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.index-controller5.js" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.index-controller5.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index4.html (2)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index4.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CHAT.html" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
       </list>
     </recent_temporary>
   </component>
@@ -425,9 +542,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="752" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1384" height="752" extended-state="7" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21700224" sideWeight="0.69423556" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21700224" sideWeight="0.3057644" order="2" side_tool="true" content_ui="tabs" />
@@ -441,6 +559,20 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42880794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.193265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29888713" sideWeight="0.27086383" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29888713" sideWeight="0.72913617" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35930046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -759,6 +891,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index4.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.8139183">
           <caret line="47" column="30" selection-start-line="29" selection-start-column="24" selection-end-line="47" selection-end-column="30" />
         </state>
@@ -776,6 +909,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85962147">
           <caret line="52" column="115" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="115" />
+=======
+        <state vertical-scroll-proportion="10.171569">
+          <caret line="572" column="13" selection-start-line="572" selection-start-column="13" selection-end-line="572" selection-end-column="13" />
+          <folding />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
         </state>
       </provider>
     </entry>
@@ -786,7 +924,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/arquitetura/directives/ola-mundo/ola-mundo.js">
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35726795">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
@@ -794,10 +936,33 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/arquitetura/directives/rw-input-text/rw-input-text.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/.gitiginore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.125">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index-controller4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
           <folding />
         </state>
       </provider>
@@ -810,6 +975,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/arquitetura/directives/rw-input-text/rw-input-text.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34311926">
@@ -846,23 +1012,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-35.96154">
           <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/app-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="48" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/arquitetura/directives/rw-crud/rw-crud.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/controller/index-controller5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/pessoa/pessoa-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23224044">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="31" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2434555">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="n#select#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
         </state>
       </provider>
     </entry>

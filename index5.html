@@ -1,15 +1,25 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+=======
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Index Treinamento Angular</title>
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
     <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css"/>
     <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css"/>
 
+<<<<<<< HEAD
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-messages/angular-messages.js"></script>
     <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
@@ -102,10 +112,78 @@
                                  ng-if="myForm.tiCor.$invalid && myForm.tiCor.$touched">
                                 <div ng-messages-include="app/messages/messages-default.html"></div>
                             </div>
+=======
+</head>
+
+<body ng-app="rw" class="container">
+    <div class="panel panel-default" ng-controller="IndexController5">
+        <div class="panel-heading">Cadastro de Pessoas</div>
+        <div class="panel-body">
+         <form novalidate name="myForm">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group"
+                         ng-class="{'has-error':myForm.tiNome.$touched && myForm.tiNome.$invalid}">
+                        <label for="tiNome">Nome</label>
+                        <input class="form-control"
+                               type="text"
+                               id="tiNome"
+                               name="tiNome"
+                               ng-model="entidade.nome"
+                               placeholder="Nome"
+                               required
+                               minlength="10"
+                               maxlength="50">
+                        <div class="help-block"
+                                ng-messages="myForm.tiNome.$error"
+                               ng-if="myForm.tiNome.$touched && myForm.tiNome.$invalid">
+                               <div ng-messages-include="app/messages/messages-default.html"></div>
                         </div>
                     </div>
                 </div>
 
+
+                <div class="col-sm-4">
+                    <div class="form-group"
+                        ng-class="{'has-error':myForm.tiNascimento.$invalid && myForm.tiNascimento.$touched}">
+                        <label for="tiNascimento">Nascimento</label>
+                        <input type="date"
+                               class="form-control"
+                               id="tiNascimento"
+                               name="tiNascimento"
+                               ng-model="entidade.nascimento"
+                               required>
+                        <div class="help-block"
+                             ng-messages="myForm.tiNascimento.$error"
+                             ng-if="myForm.tiNascimento.$invalid && myForm.tiNascimento.$touched">
+                            <div ng-messages-include="app/messages/messages-default.html"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="form-group"
+                          ng-class="{'has-error':myForm.tiSexo.$invalid && myForm.tiSexo.$touched}">
+                        <label for="tiSexo">Sexo</label>
+                        <select id="tiSexo"
+                                name="tiSexo"
+                                class="form-control"
+                                ng-model="entidade.sexo"
+                                required>
+                            <option>MASCULINO</option>
+                            <option>FEMININO</option>
+                        </select>
+                        <div class="help-block"
+                                ng-messages="myForm.tiSexo.$error"
+                                ng-if="myForm.tiSexo.$invalid && myForm.tiSexo.$touched">
+                            <div ng-messages-include="app/messages/messages-default.html"></div>
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
+                        </div>
+                    </div>
+                </div>
+
+<<<<<<< HEAD
             </form>
             <!--<table class="table">
                 <tr>
@@ -144,4 +222,42 @@
     <i class="fa fa-trash"></i>
 </button>
 </body>
+=======
+            </div>
+        </form>
+
+            <div ui-grid="gridOptions"></div>
+        </div>
+
+        <div class="panel-footer pull-right">
+            <button class="btn btn-primary" ng-click="salvar()" ><!--ng-disabled="myForm.$invalid">-->
+                Salvar
+                <i class="fa fa-save"></i>
+            </button>
+
+            <button class="btn btn-warning" ng-click="limpar()">
+                Limpar
+                <i class="fa fa-eraser"></i>
+            </button>
+
+            <button class="btn btn-danger" ng-click="excluir()">
+                Excluir
+                <i class="fa fa-trash"></i>
+            </button>
+        </div>
+    </div>
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="app/app-config.js"></script>
+    <script src="app/controller/index-controller4.js"></script>
+    <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <script src="app/service/alert-sevice.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+    <script src="app/controller/index-controller5.js"></script>
+
+</body>
+
+>>>>>>> e7006d0bd4c217129f31a21254ce0efe4180015c
 </html>
