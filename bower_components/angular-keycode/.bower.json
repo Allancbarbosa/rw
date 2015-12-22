@@ -23,7 +23,6 @@
     "commit": "dff93c625e2690fe4cbe2a6fa912601354321eb5"
   },
   "_source": "git://github.com/jullierme/angular-keycode.git",
-  "_target": "~1.0.5",
-  "_originalSource": "angular-keycode",
-  "_direct": true
+  "_target": "1.0.5",
+  "_originalSource": "angular-keycode"
 }

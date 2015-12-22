@@ -1,12 +1,12 @@
- angular.module('rw')
-      .controller('IndexController',IndexController);
+angular.module('rw')
+    .controller('IndexController', IndexController);
 
- function IndexController($scope){
-     $scope.nome = 'Allan Cassiano';
-     $scope.onClickTeste = onClickTeste;
+/* @ngInject */
+function IndexController($scope){
+    $scope.nome = 'Jullierme';
+    $scope.onClickTeste = onClickTeste;
 
-     function onClickTeste(){
-     $scope.nome = 'Teste alteraçao via javascript';
-
-     }
- }
+    function onClickTeste(){
+        $scope.nome = 'Teste alteção via javascript';
+    }
+}

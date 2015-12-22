@@ -1,49 +1,59 @@
-/**
- * Created by JCG-003 on 14/12/2015.
- */
 angular.module('rw')
     .controller('IndexController4', IndexController4);
 
-IndexController4.$inject = ['$scope','AlertService','$filter'];
-
-function IndexController4($scope,AlertService,$filter) {
-
-    $scope.listaDePessoas = [];
-    $scope.entidade = {};
+/* @ngInject */
+function IndexController4($scope, $timeout, AlertService, $filter){
+    $scope.listaDePessoas = [];//colchetes para arrays
+    $scope.entidade = {};//chaves para objetos
     $scope.salvar = salvar;
     $scope.limpar = limpar;
     $scope.excluir = excluir;
 
+    $scope.myClass = 'amarelo';
 
     function setTouched(){
-        angular.forEach($scope.myForm.$error,function (error){
-        angular.forEach(error ,function (field){
-            field.$setTouched();
+        angular.forEach($scope.myForm.$error, function(error){
+            angular.forEach(error, function(field){
+                field.$setTouched();
+            });
         });
-    });
+    }
+    function setUntouched(){
+        angular.forEach($scope.myForm.$error, function(error){
+            angular.forEach(error, function(field){
+                field.$setUntouched();
+            });
+        });
     }
 
-    function salvar () {
-        setTouched()
-        if ($scope.myForm.$invalid) {
-            AlertService.showError('verifique os campos','error');
+    function salvar(){
+        var str = '';
+
+        var dataStr = $filter('date')($scope.entidade.nascimento, 'dd/MM/yyyy');
+
+        AlertService.showInfo(dataStr);
+
+        if($scope.myForm.$invalid){
+            setTouched();
+
+            AlertService.showError('Verifique os campos do formulário');
             return;
-
-
-
         }
+
+        AlertService.showSuccess('Registro salvo com sucesso');
 
         $scope.listaDePessoas.push($scope.entidade);
         limpar();
-        AlertService.showSucess('Gravado com sucesso','ok');
     }
 
-    function limpar () {
+    function limpar(){
         $scope.entidade = {};
+
+        $timeout(function(){
+            setUntouched();
+        },50);
     }
 
-    function excluir () {
-
+    function excluir(){
     }
-
-};
+}
